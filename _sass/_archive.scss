@@ -57,6 +57,23 @@
   }
 }
 
+.paper-title{
+    display: block;
+    font-size: 1.1em;
+    margin-top: 0.83em;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+.paper-authors{
+    margin: 0;
+  }
+
+.paper-venue{
+    margin-top: .3rem;
+  }
+
+
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
