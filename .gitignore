@@ -1,2 +1,10 @@
 _site/
 
+assets/js/.DS_Store
+assets/.DS_Store
+.DS_Store
+_assets/js/.DS_Store
+_data/comments/.DS_Store
+_includes/.DS_Store
+_publications/.DS_Store
+_sass/vendor/.DS_Store
