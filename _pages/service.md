@@ -11,6 +11,9 @@ Organizing Committee
 
 Program Committee
 ------
+- The 40th International Conference on Software Maintenance and Evolution (ICSME'24)
+- The 21st International Conference on Mining Software Repositories (MSR'24).
+- The 32nd IEEE/ACM International Conference on Program Comprehension (ICPC'24).
 - The 20th International Conference on Mining Software Repositories (MSR'23).
 - The 31st IEEE/ACM International Conference on Program Comprehension (ICPC'23).
 - The 20th International Conference on Mining Software Repositories (MSR'23), Data and Tool Showcase Track.
@@ -29,6 +32,8 @@ Reviewer: IEEE Software’22 – IEEE Software.
 Journal Reviewer
 ------
 - Transactions on Software Engineering and Methodology (TOSEM'23).
+- Springer’s Journal of Empirical Software Engineering (EMSE'23).
+- IEEE Software (IEEE Software’23).
 - Elsevier’s Journal of Information and Software Technology (IST'22).
 - IEEE Software (IEEE Software’22).
 - Springer’s Journal of Empirical Software Engineering (EMSE'21).
