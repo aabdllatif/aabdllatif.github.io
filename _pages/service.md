@@ -15,7 +15,7 @@ Program Committee
 - The 21st International Conference on Mining Software Repositories (MSR'24).
 - The 32nd IEEE/ACM International Conference on Program Comprehension (ICPC'24).
 - The 32nd IEEE/ACM International Conference on Program Comprehension (ICPC'24), Tool Demonstration Track.
-- The 31st IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER 2024), Tools Demo Track.
+- The 31st IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER'24), Tools Demo Track.
 - The 20th International Conference on Mining Software Repositories (MSR'23).
 - The 31st IEEE/ACM International Conference on Program Comprehension (ICPC'23).
 - The 20th International Conference on Mining Software Repositories (MSR'23), Data and Tool Showcase Track.
