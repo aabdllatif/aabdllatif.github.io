@@ -33,6 +33,7 @@ Reviewer: IEEE Software’22 – IEEE Software.
 
 Journal Reviewer
 ------
+- IEEE Software (IEEE Software’24).
 - Transactions on Software Engineering and Methodology (TOSEM'23).
 - Springer’s Journal of Empirical Software Engineering (EMSE'23).
 - IEEE Software (IEEE Software’23).
