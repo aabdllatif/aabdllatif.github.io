@@ -21,6 +21,8 @@ masters:
   - name: "John Pangas"
     photo: "john_pangas.jpg"
     title: "Masters Student"
+    linkedin: "https://www.linkedin.com/in/johnpangas"
+    github: "https://github.com/jpangas"
 
   - name: "Tomi Owolabi"
     photo: "tomi.png"
