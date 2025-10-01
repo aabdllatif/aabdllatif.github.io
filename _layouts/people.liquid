@@ -1,0 +1,54 @@
+---
+layout: default
+title: People
+---
+
+{% assign categories = "pi,phd,masters,undergrads,alumni" | split: "," %}
+{% assign labels = "Professors,PhD Students,Masters Students,Undergraduate Students,Alumni" | split: "," %}
+
+{% for cat in categories %}
+  <h2>{{ labels[forloop.index0] }}</h2>
+  <div class="people-grid">
+    {% for person in site.data.people[cat] %}
+      <div class="person-card">
+        {% assign photo_path = '/assets/img/' | append: person.photo %}
+        {% if person.photo %}
+          <img src="{{ photo_path }}" alt="{{ person.name }}" onerror="this.onerror=null;this.src='/assets/img/blank_profile.png';">
+        {% else %}
+          <img src="/assets/img/blank_profile.png" alt="{{ person.name }}">
+        {% endif %}
+
+        <h3>
+          {% if person.url %}
+            <a href="{{ person.url }}">{{ person.name }}</a>
+          {% else %}
+            {{ person.name }}
+          {% endif %}
+        </h3>
+
+        {% if person.title %}<p>{{ person.title }}</p>{% endif %}
+        {% if person.program %}<p>{{ person.program }}</p>{% endif %}
+        {% if person.current %}<p><em>{{ person.current }}</em></p>{% endif %}
+
+        <div class="social-links">
+            {% if person.linkedin %}
+                <a href="{{ person.linkedin }}" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+                </a>
+            {% endif %}
+            {% if person.github %}
+                <a href="{{ person.github }}" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+                </a>
+            {% endif %}
+            {% if person.twitter %}
+                <a href="{{ person.twitter }}" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+                </a>
+            {% endif %}
+        </div>
+
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}
