@@ -1,0 +1,54 @@
+pi:
+  - name: "Dr. Ahmad Abdellatif"
+    # title: "Principal Investigator"
+    photo: "ahmad.jpg"
+    url: "https://aabdllatif.github.io"
+    email: "ahmad.abdellatif@ucalgary.ca"
+    linkedin: "https://www.linkedin.com/in/ahmad-abdellatif-8ab82a29"
+    github: "https://github.com/ahmad-abdellatif"
+    twitter: "https://twitter.com/AhmadAbdellatf"
+
+phd:
+  - name: "Corey Yang-Smith"
+    photo: "corey.jpg"
+    # url: "https://scholar.example.com/corey"
+    title: "PhD Student"
+    linkedin: "https://ca.linkedin.com/in/coreyyangsmith"
+    github: "https://github.com/coreyyangsmith"
+    twitter: "https://x.com/coreyyangsmith"
+
+masters:
+  - name: "John Pangas"
+    photo: "john_pangas.jpg"
+    title: "Masters Student"
+
+  - name: "Tomi Owolabi"
+    photo: "tomi.png"
+    title: "Masters Student"
+    linkedin: "https://www.linkedin.com/in/saviour-owolabi"
+    github: "https://github.com/seyviour"
+
+
+undergrads:
+  - name: "Rinad Hamid"
+    photo: "rinad_hamid.jpg"
+    title: "Undergraduate Student"
+
+  - name: "Abia Jahangir"
+    photo: "abia_jahangir.jpg"
+    title: "Undergraduate Student"
+
+alumni:
+  - name: "Adam Yuen"
+    photo: "adam_cropped.jpeg"
+    title: "Undergraduate Student"
+    linkedin: "https://www.linkedin.com/in/adam-yuen/"
+    github: "https://github.com/SenorYuen"
+  
+  - name: "Neha Parmar"
+    photo: "neha_parmar.jpg"
+    title: "Undergraduate Student"
+
+  - name: "Shahed Issa"
+    photo: "shahed_issa.jpg"
+    title: "Undergraduate Student"
