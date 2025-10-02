@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-service",
-          title: "Service",
+        },{id: "nav-teaching",
+          title: "Teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/service/";
+            window.location.href = "/teaching/";
           },
         },{id: "nav-people",
           title: "People",
@@ -29,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/members/";
+          },
+        },{id: "nav-open-positions",
+          title: "Open Positions",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/positions/";
           },
         },{id: "post-a-post-with-plotly-js",
         
