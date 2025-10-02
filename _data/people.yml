@@ -35,6 +35,8 @@ undergrads:
   - name: "Rinad Hamid"
     photo: "rinad_hamid.jpg"
     title: "Undergraduate Student"
+    linkedin: "https://www.linkedin.com/in/rinad-hamid-abb6252aa/"
+    github: "https://github.com/rinad-h"
 
   - name: "Abia Jahangir"
     photo: "abia_jahangir.jpg"
