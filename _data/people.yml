@@ -52,7 +52,11 @@ alumni:
   - name: "Neha Parmar"
     photo: "neha_parmar.jpg"
     title: "Undergraduate Student"
+    linkedin: "https://www.linkedin.com/in/neha-parmar-5508ba218/"
 
   - name: "Shahed Issa"
+    url: "https://shahedissa.netlify.app/"
     photo: "shahed_issa.jpg"
     title: "Undergraduate Student"
+    linkedin: "https://www.linkedin.com/in/shahed-issa/"
+    github: "https://github.com/Shahed-i"
