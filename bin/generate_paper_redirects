@@ -1,0 +1,47 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Generates redirect pages under /papers/{filename} for every PDF in assets/pdf.
+
+require 'fileutils'
+
+ROOT = File.expand_path('..', __dir__)
+PDF_DIR = File.join(ROOT, 'assets', 'pdf')
+OUTPUT_DIR = File.join(ROOT, '_pages', 'papers')
+
+unless Dir.exist?(PDF_DIR)
+  warn "PDF directory not found: #{PDF_DIR}"
+  exit 1
+end
+
+FileUtils.mkdir_p(OUTPUT_DIR)
+
+pdf_paths = Dir.glob(File.join(PDF_DIR, '*.pdf'), File::FNM_CASEFOLD).sort
+
+if pdf_paths.empty?
+  warn "No PDF files found in #{PDF_DIR}"
+  exit 0
+end
+
+pdf_paths.each do |pdf_path|
+  filename = File.basename(pdf_path)
+  slug = File.basename(pdf_path, File.extname(pdf_path))
+  page_path = File.join(OUTPUT_DIR, "#{slug}.md")
+
+  front_matter = <<~PAGE
+    ---
+    layout: default
+    title: #{filename}
+    permalink: /papers/#{filename}/
+    redirect: /assets/pdf/#{filename}
+    ---
+  PAGE
+
+  if File.exist?(page_path) && File.read(page_path) == front_matter
+    puts "Skipped #{page_path} (up-to-date)"
+    next
+  end
+
+  File.write(page_path, front_matter)
+  puts "Wrote #{page_path}"
+end
