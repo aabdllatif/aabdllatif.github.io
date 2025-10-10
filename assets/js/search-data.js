@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-service",
-          title: "Service",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/service/";
-          },
         },{id: "nav-people",
           title: "People",
           description: "Members of the Abdellatif Group",
