@@ -1,7 +1,7 @@
 pi:
   - name: "Dr. Ahmad Abdellatif"
     # title: "Principal Investigator"
-    photo: "ahmad.jpg"
+    photo: "ahmad@2x.jpg"
     url: "https://aabdllatif.github.io"
     email: "ahmad.abdellatif@ucalgary.ca"
     linkedin: "https://www.linkedin.com/in/ahmad-abdellatif-8ab82a29"
@@ -10,7 +10,7 @@ pi:
 
 phd:
   - name: "Corey Yang-Smith"
-    photo: "corey.jpg"
+    photo: "corey@2x.jpg"
     # url: "https://scholar.example.com/corey"
     title: "PhD Student"
     linkedin: "https://ca.linkedin.com/in/coreyyangsmith"
