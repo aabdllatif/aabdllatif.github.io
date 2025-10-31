@@ -41,6 +41,8 @@ undergrads:
   - name: "Abia Jahangir"
     photo: "abia_jahangir.jpg"
     title: "Undergraduate Student"
+    linkedin: "https://www.linkedin.com/in/abia-jahangir-651bb9161/"
+    github: "https://github.com/abia-jahangir"
 
 alumni:
   - name: "Adam Yuen"
