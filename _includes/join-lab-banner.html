@@ -1,0 +1,22 @@
+<style>
+  html[data-theme="dark"] .join-lab-banner {
+    --join-banner-bg: #1f1a16;
+    --join-banner-border: #4f4339;
+    --join-banner-heading: #f8f1e4;
+    --join-banner-body: #e7d8c6;
+    --join-banner-subhead: #cbb69f;
+  }
+</style>
+<div class="join-lab-banner" style="margin:2.5rem 0; padding:2.75rem 2.5rem 2.25rem; border-radius:18px; border:1px solid var(--join-banner-border, #d9cbb6); background:var(--join-banner-bg, #f4efe8); color:var(--join-banner-body, #4d3f34);">
+  <p style="margin:0; letter-spacing:0.14em; font-size:0.72rem; text-transform:uppercase; color:var(--join-banner-subhead, #7b6650); font-weight:600;">PhD Positions Available</p>
+  <h2 style="margin:0.6rem 0 1.1rem; font-size:1.85rem; line-height:1.35; font-weight:600; color:var(--join-banner-heading, #3b2f25);">Two fully funded PhD positions are available in my group at the University of Calgary, focusing on the intersection of AI and Software Engineering.</h2>
+  <p style="margin:0 0 1.1rem; font-size:1rem; line-height:1.6;">Why join us?</p>
+  <ul style="margin:0 0 1.7rem; padding-left:1.1rem; font-size:0.95rem; line-height:1.6;">
+    <li>Tackle impactful research problems in AI and software engineering.</li>
+    <li>Collaborate with an active research community in machine learning and software engineering.</li>
+    <li>Live in Calgary – ranked the #1 place to live in Canada in 2025.</li>
+  </ul>
+  <p style="margin:0 0 1.4rem; font-size:0.95rem; line-height:1.6;">If you are passionate about advancing AI and software engineering, please apply or share this opportunity with potential candidates:</p>
+  {% assign apply_url = include.url | default: 'https://dearprof.com/positions/68daa9a1d94962e150b1a608/apply' %}
+  <a href="{{ apply_url }}" style="display:inline-block; padding:0.9rem 1.75rem; border-radius:12px; background:#3b2f25; color:#f6f0e7; text-decoration:none; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; font-size:0.9rem;">Apply Now</a>
+</div>
