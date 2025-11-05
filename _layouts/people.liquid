@@ -3,8 +3,8 @@ layout: default
 title: People
 ---
 
-{% assign categories = "pi,phd,masters,undergrads,alumni" | split: "," %}
-{% assign labels = "Professors,PhD Students,Masters Students,Undergraduate Students,Alumni" | split: "," %}
+{% assign categories = "pi,phd,masters,undergrads,alumni,visitor" | split: "," %}
+{% assign labels = "Professors,PhD Students,Masters Students,Undergraduate Students,Alumni,Visitors" | split: "," %}
 
 {% for cat in categories %}
   <h2>{{ labels[forloop.index0] }}</h2>

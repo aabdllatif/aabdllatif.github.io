@@ -10,7 +10,7 @@ pi:
 
 phd:
   - name: "Corey Yang-Smith"
-    photo: "corey@1_2x.png" 
+    photo: "corey_cropped.jpg" 
     # url: "https://scholar.example.com/corey"
     title: "PhD Student"
     linkedin: "https://ca.linkedin.com/in/coreyyangsmith"
@@ -39,7 +39,7 @@ undergrads:
     github: "https://github.com/rinad-h"
 
   - name: "Abia Jahangir"
-    photo: "abia_jahangir.jpg"
+    photo: "abia_cropped.jpg"
     title: "Undergraduate Student"
     linkedin: "https://www.linkedin.com/in/abia-jahangir-651bb9161/"
     github: "https://github.com/abia-jahangir"
@@ -62,3 +62,10 @@ alumni:
     title: "Undergraduate Student"
     linkedin: "https://www.linkedin.com/in/shahed-issa/"
     github: "https://github.com/Shahed-i"
+
+visitor:
+  - name: "Nadia Jazi"
+    photo: "nadia.jpeg"
+    title: "Undergraduate Research Intern"
+    linkedin: "https://www.linkedin.com/in/nadia-jazi-48914a250/"
+    github: "https://github.com/nadiajazi"
