@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: default
 title: "Open Positions"
 permalink: /positions/
 description:
-nav: true
+nav: false
 nav_order: 9
 ---
 
@@ -21,4 +21,4 @@ If you are passionate about advancing AI and software engineering, please apply 
 
 **[Apply Here on DearProf](https://dearprof.com/positions/68daa9a1d94962e150b1a608/apply)**
 
----
+--- -->
