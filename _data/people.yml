@@ -10,7 +10,7 @@ pi:
 
 phd:
   - name: "Corey Yang-Smith"
-    photo: "corey_cropped.jpg" 
+    photo: "corey.webp" 
     # url: "https://scholar.example.com/corey"
     title: "PhD Student"
     linkedin: "https://ca.linkedin.com/in/coreyyangsmith"
