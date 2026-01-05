@@ -264,8 +264,10 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Abdellatif]
-  first_name: [Ahmad, A.]
+  # last_name: [Abdellatif]
+  # first_name: [Ahmad, A.]
+  last_name: []
+  first_name: []
 
   style: apa
   locale: en
