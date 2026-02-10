@@ -1,0 +1,24 @@
+- name: "NSERC"
+  url: "https://www.nserc-crsng.gc.ca/"
+  logo: "nserc_logo.svg"
+
+- name: "Sandoz"
+  url: "https://www.sandoz.ca/"
+  logo: "sandoz_blue.svg"
+
+- name: "Mozilla"
+  url: "https://www.mozilla.org/"
+  logo: "mozilla_logo.svg"
+
+- name: "Alberta Children's Hospital Foundation"
+  url: "https://www.childrenshospital.ab.ca/"
+  logo: "alberta_childrens_hospital_logo.svg"
+
+- name: "Volt-Age"
+  url: "https://www.concordia.ca/research/volt-age.html/"
+  logo: "volt-age_logo.svg"
+
+
+
+
+
