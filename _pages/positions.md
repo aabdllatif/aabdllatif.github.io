@@ -9,7 +9,7 @@ nav_order: 9
 
 ## PhD Positions Available
 
-🚀 **Two fully funded PhD positions are available in my group at the University of Calgary, focusing on the intersection of AI and Software Engineering.**
+🚀 **Fully funded PhD positions are available in my group at the University of Calgary, focusing on the intersection of AI and Software Engineering.**
 
 🌟 **Why join us?**
 - Tackle impactful research problems in AI and software engineering.
