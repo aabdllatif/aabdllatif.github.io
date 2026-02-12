@@ -2,24 +2,24 @@
 layout: page
 ---
 
-{% assign partners = site.data.partners %}
-{% assign logos_per_row = page.logos_per_row | default: site.partners.logos_per_row | default: 4 %}
+{% assign sponsors = site.data.sponsors %}
+{% assign logos_per_row = page.logos_per_row | default: site.sponsors.logos_per_row | default: 4 %}
 
-{% if partners and partners.size > 0 %}
-  <div class="partners-grid" style="--partners-columns: {{ logos_per_row }};">
-    {% for partner in partners %}
-      {% assign logo_path = '/assets/img/partner_logos/' | append: partner.logo | relative_url %}
-      {% if partner.url %}
-        <a class="partner-card" href="{{ partner.url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit {{ partner.name }} website">
-          <img src="{{ logo_path }}" alt="{{ partner.name }} logo">
+{% if sponsors and sponsors.size > 0 %}
+  <div class="sponsors-grid" style="--sponsors-columns: {{ logos_per_row }};">
+    {% for sponsor in sponsors %}
+      {% assign logo_path = '/assets/img/sponsor_logos/' | append: sponsor.logo | relative_url %}
+      {% if sponsor.url %}
+        <a class="sponsor-card" href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit {{ sponsor.name }} website">
+          <img src="{{ logo_path }}" alt="{{ sponsor.name }} logo">
         </a>
       {% else %}
-        <div class="partner-card">
-          <img src="{{ logo_path }}" alt="{{ partner.name }} logo">
+        <div class="sponsor-card">
+          <img src="{{ logo_path }}" alt="{{ sponsor.name }} logo">
         </div>
       {% endif %}
     {% endfor %}
   </div>
 {% else %}
-  <p>No partners configured yet. Add entries in <code>_data/partners.yml</code>.</p>
+  <p>No sponsors configured yet. Add entries in <code>_data/sponsors.yml</code>.</p>
 {% endif %}

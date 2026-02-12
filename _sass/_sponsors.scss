@@ -1,7 +1,7 @@
-.partners-grid {
-  --partners-columns: 3;
+.sponsors-grid {
+  --sponsors-columns: 3;
   display: grid;
-  grid-template-columns: repeat(var(--partners-columns), max-content);
+  grid-template-columns: repeat(var(--sponsors-columns), max-content);
   column-gap: 1.8rem;
   row-gap: 3.2rem;
   align-items: start;
@@ -14,9 +14,14 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
 }
 
-.partner-card {
+html[data-theme="dark"] .sponsors-grid {
+  // Use a light glow in dark mode so the grid edge stays visible.
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.08);
+}
+
+.sponsor-card {
   align-items: center;
-  background-color: var(--global-card-bg-color);
+  background-color: transparent;
   border: 0px solid var(--global-divider-color);
   border-radius: 0.75rem;
   display: flex;
@@ -28,30 +33,32 @@
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.partner-card:hover {
+.sponsor-card:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
 }
 
-.partner-card img {
+.sponsor-card img {
   width: 230px;
   height: 124px;
   background-color: #fff;
   object-fit: contain;
+  border-radius: 0.75rem;
+  padding: 0.15rem;
 }
 
 @media (max-width: 768px) {
-  .partners-grid {
+  .sponsors-grid {
     grid-template-columns: repeat(2, max-content);
   }
 }
 
 @media (max-width: 480px) {
-  .partners-grid {
+  .sponsors-grid {
     grid-template-columns: 1fr;
   }
 
-  .partner-card {
+  .sponsor-card {
     width: 100%;
   }
 }
