@@ -18,11 +18,11 @@ phd:
     twitter: "https://x.com/coreyyangsmith"
 
 masters:
-  - name: "Abdallah Ayoub"
+  - name: "Tomi Owolabi"
+    photo: "tomi.png"
     title: "Masters Student"
-    linkedin: "https://www.linkedin.com/in/abdallah-ayoub-5aa3351a5/"
-    github: "https://github.com/AbdallahAyoub2001"
-    photo: "abdallah_flipped.png"
+    linkedin: "https://www.linkedin.com/in/saviour-owolabi"
+    github: "https://github.com/seyviour"
 
   - name: "John Pangas"
     photo: "john_pangas.jpg"
@@ -30,12 +30,11 @@ masters:
     linkedin: "https://www.linkedin.com/in/johnpangas"
     github: "https://github.com/jpangas"
 
-  - name: "Tomi Owolabi"
-    photo: "tomi.png"
+  - name: "Abdallah Ayoub"
     title: "Masters Student"
-    linkedin: "https://www.linkedin.com/in/saviour-owolabi"
-    github: "https://github.com/seyviour"
-
+    linkedin: "https://www.linkedin.com/in/abdallah-ayoub-5aa3351a5/"
+    github: "https://github.com/AbdallahAyoub2001"
+    photo: "abdallah_flipped.png"
 
 undergrads:
   - name: "Rinad Hamid"
