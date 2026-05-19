@@ -42,12 +42,13 @@ undergrads:
     title: "Undergraduate Student"
     linkedin: "https://www.linkedin.com/in/rinad-hamid-abb6252aa/"
     github: "https://github.com/rinad-h"
-
-  - name: "Abia Jahangir"
-    photo: "abia_cropped.jpg"
+  
+  - name: "Noor Haj Yousef"
+    photo: "noorhajyousef.jpg"
     title: "Undergraduate Student"
-    linkedin: "https://www.linkedin.com/in/abia-jahangir-651bb9161/"
-    github: "https://github.com/abia-jahangir"
+    linkedin: "https://www.linkedin.com/in/noorhajyousef"
+    github: "https://github.com/noorhajyousef"
+
 
 alumni:
   - name: "Adam Yuen"
@@ -67,6 +68,13 @@ alumni:
     title: "Undergraduate Student"
     linkedin: "https://www.linkedin.com/in/shahed-issa/"
     github: "https://github.com/Shahed-i"
+
+  - name: "Abia Jahangir"
+    photo: "abia_cropped.jpg"
+    title: "Undergraduate Student"
+    linkedin: "https://www.linkedin.com/in/abia-jahangir-651bb9161/"
+    github: "https://github.com/abia-jahangir"
+  
 
 visitor:
   - name: "Nadia Jazi"
