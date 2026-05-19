@@ -3,7 +3,56 @@
 
 @string{aps = {American Physical Society,}}
 
-=@inproceedings{melo2026evaluating,
+=@article{bertschmannPerformanceLargeLanguage2026,
+  title = {Performance of Large Language Models on the Radiation and Cancer Biology Practice Exam},
+  author = {Bertschmann, Jessica and Xu, Yang and Bayley, Conrad and Abdellatif, Ahmad and Lee, Sangjune Laurence},
+  year = 2026,
+  month = may,
+  journal = {Frontiers in Oncology},
+  volume = {16},
+  publisher = {Frontiers},
+  issn = {2234-943X},
+  doi = {10.3389/fonc.2026.1738955},
+  urldate = {2026-05-19},
+  abstract = {Background/objectivesLarge Language Models (LLMs) are increasingly used in medicine for tasks ranging from patient communication to exam preparation. This study aimed to evaluate the feasibility of using a domain-specific, out-of-training-data radiation and cancer biology examination as a benchmarking framework for large language models, and to compare the accuracy and consistency of commonly used LLMs available at the time of data collection.MethodsGPT-3.5, GPT-4, and Llama-2 were queried with 335 multiple-choice questions (MCQs) from the 2023 American Society for Radiation Oncology (ASTRO) Radiation and Cancer Biology Exam Study Guide, excluding image-based items. Each model answered all questions five times over three months to evaluate consistency. Model responses were scored against the official answer key and analyzed using one-way ANOVA with Bonferroni correction to determine statistical differences in accuracy.ResultsGPT-4 achieved the highest accuracy, correctly answering 81\% of questions, significantly outperforming GPT-3.5 (62\%) and Llama-2 (51\%) (p {$<$} 0.001). All models performed worse on questions requiring calculations, though differences were not statistically significant. In terms of reliability, GPT-4 and Llama-2 provided consistent responses more frequently than GPT-3.5. Despite stable overall scores, all models exhibited variability in individual responses across repeated trials. GPT-4 produced the longest explanations, averaging 183 words per answer.ConclusionsThis study demonstrates the feasibility of using a domain-specific, out-of-training-data examination to benchmark large language model knowledge in radiation and cancer biology. While performance differences were observed among models, variability and limitations, particularly in calculation-based questions, highlight the importance of methodological benchmarking and cautious interpretation when considering medical educational applications.},
+  langid = {english},
+  keywords = {ChatGPT,large language models (LLMs),medical education,natural language processing (NLP),radiation biology},
+  pdf = {bertschmannPerformanceLargeLanguage2026.pdf}
+}
+
+@inproceedings{ghorabKubernetesMisconfigurationsWild2026,
+  title = {Kubernetes {{Misconfigurations}} in the {{Wild}}: {{Taxonomy}}, {{Evolution}}, and {{Automated Repair}} with {{Large Language Models}}},
+  shorttitle = {Kubernetes {{Misconfigurations}} in the {{Wild}}},
+  booktitle = {Proceedings of the 3rd ACM/IEEE International Conference on AI-powered Software},
+  author = {Ghorab, Mostafa Anouar and Latif, Ahmad Abdel and Saied, Mohamed Aymen},
+  year = 2026,
+  month = mar,
+  urldate = {2026-05-19},
+  abstract = {Kubernetes has become a central platform for orchestrating cloudnative applications, yet its declarative configuration model frequently introduces security misconfigurations that threaten system reliability and operational stability. Although automated detection tools are widely available, a systematic understanding of misconfiguration patterns and scalable correction mechanisms remains limited. This paper presents a comprehensive empirical study of Kubernetes security misconfigurations based on 2,662 developerreported issues from Stack Overflow. From this dataset, we derive a structured taxonomy that captures recurring security weaknesses across configuration object types and misconfiguration categories. Using this taxonomy, we analyze how severity levels vary across objects and categories, and examine how security misconfigurations evolve between incubator and stable project stages. Our findings reveal that while some operational issues decrease as projects mature, critical security misconfigurations often persist or reappear, highlighting enduring risk patterns in cloud-native systems. Building on this empirical foundation, we evaluate the effectiveness of Large Language Models (LLMs) in automatically correcting Kubernetes security misconfigurations under progressively enriched contextual conditions. Results demonstrate that contextual grounding significantly improves correction accuracy, with the best standalone model achieving 89.06\%. To further enhance structural and semantic reliability, we introduce Kubecurity, a schema-guided validation framework that enforces compliance with official Kubernetes specifications. By combining contextual LLM reasoning with deterministic schema enforcement, the proposed hybrid approach achieves 98.50\% correction accuracy while substantially reducing newly introduced misconfigurations. Overall, this work advances both the understanding and automated remediation of Kubernetes security misconfigurations.},
+  langid = {english},
+  pdf = {ghorabKubernetesMisconfigurationsWild2026.pdf}
+}
+
+@article{hamidHandsAgentsUnderstanding2026,
+  title = {The Hands behind the Agents: {{Understanding}} Practitioner Challenges with Agentic Frameworks},
+  shorttitle = {The Hands behind the Agents},
+  author = {Hamid, Rinad and Pangas, John and Abdellatif, Ahmad},
+  year = 2026,
+  month = sep,
+  journal = {Information and Software Technology},
+  volume = {197},
+  pages = {108183},
+  issn = {0950-5849},
+  doi = {10.1016/j.infsof.2026.108183},
+  urldate = {2026-05-19},
+  abstract = {Context: Agentic frameworks such as LangChain, CrewAI, and AutoGen have become important for building autonomous AI systems by coordinating LLM-based agents. However, despite rapid adoption, limited evidence exists about the real-world challenges practitioners face during development. Prior research has focused mainly on post-deployment issues such as runtime and communication problems. This leaves limited understanding of the obstacles that occur before deployment. These challenges hinder progress, expose documentation gaps, and reveal mismatches between framework abstractions and practitioner needs. Objective: This study aims to identify and characterize the challenges practitioners encounter when using agentic frameworks, examine the types of questions developers ask, and quantify which technical areas are the most difficult for the community to resolve. Methods: We analyze 2658 Stack Overflow posts related to agentic frameworks. Using co-occurring tag analysis and Latent Dirichlet Allocation (LDA), we extract recurring topics and group them into categories. We then manually code posts to classify question types, including ``How'', ``Why'', and ``What''. Topic difficulty is assessed using the percentage of unresolved posts and the median time to accepted answers. Results: Practitioners most frequently struggle with framework configuration, tool integration, vector database operations, and agent execution behavior. A majority of posts, 71.1\%, are procedural ``How'' questions, showing a need for practical guidance. LLM execution and runtime issues have the highest proportion of unanswered posts at 86\%. Vector database related problems take the longest to resolve, with a median time of 100.3 h. In contrast, library and output or token issues are resolved more quickly. Conclusion: This study offers the first large-scale empirical analysis of developer challenges with agentic frameworks. The findings highlight barriers in data management, orchestration, runtime execution, and configuration. Improving documentation, abstractions, and debugging tools can support more reliable and accessible agentic system development.},
+  keywords = {Agentic frameworks,Crowdsource,Developer challenges,Large Language Models (LLMs),Stack Overflow},
+  pdf = {hamidHandsAgentsUnderstanding2026.pdf}
+}
+
+
+
+@inproceedings{melo2026evaluating,
   title     = {Evaluating and Improving the Quality of LLM-Generated Coe},
   author    = {Melo, Glaucia and Pourleyli, Jessica and Caumartin, Genevieve and Yang-Smith, Corey and Costa, Diego and Abdellatif, Ahmad},
   booktitle = {Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering},
