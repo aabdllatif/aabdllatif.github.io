@@ -36,6 +36,12 @@ masters:
     github: "https://github.com/AbdallahAyoub2001"
     photo: "abdallah_flipped.png"
 
+  - name: "Kirabo Atuhurira"
+    title: "Masters Student"
+    linkedin: "https://www.linkedin.com/in/kirabo-atuhurira-920536211"
+    github: "https://github.com/kakopo"
+    photo: "atuhurira_kirabo_cropped.jpg"
+
 undergrads:
   - name: "Rinad Hamid"
     photo: "rinad_hamid.jpg"
