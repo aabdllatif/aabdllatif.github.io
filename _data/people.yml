@@ -55,6 +55,11 @@ undergrads:
     linkedin: "https://www.linkedin.com/in/noorhajyousef"
     github: "https://github.com/noorhajyousef"
 
+  - name: "Maxime Boucher"
+    photo: "max_boucher_cropped.jpg"
+    title: "Undergraduate Student"
+    linkedin: "https://www.linkedin.com/in/maxboucher/"
+    github: "https://github.com/themaxboucher"
 
 alumni:
   - name: "Adam Yuen"
