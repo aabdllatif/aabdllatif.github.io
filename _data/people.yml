@@ -87,21 +87,28 @@ alumni:
     github: "https://github.com/abia-jahangir"
   
 visitor:
-  - name: "Nadia Jazi"
-    photo: "nadia.jpeg"
-    title: "Research Intern"
-    linkedin: "https://www.linkedin.com/in/nadia-jazi-48914a250/"
-    github: "https://github.com/nadiajazi"
-
-  - name: "Mohammad Khatatbeh"
-    photo: "mohammad_khatatbeh_cropped.jpg"
-    # title: "Visiting Researcher"
-    linkedin: "https://www.linkedin.com/in/mohammad-khatatbeh-504a4a251"
-    github: ""
-
   - name: "Ranim Khojah"
     photo: "ranim_khojah.png"
     title: "PhD Student"
     linkedin: "https://www.linkedin.com/in/ranimkhojah"
     github: "https://github.com/ranimkhojah"
     url: "https://ranimkhojah.com/"
+
+  - name: "Mohammad Khatatbeh"
+    photo: "mohammad_khatatbeh_cropped.jpg"
+    title: "Research Intern"
+    linkedin: "https://www.linkedin.com/in/mohammad-khatatbeh-504a4a251"
+    github: ""
+
+  - name: "Houaida Mangour"
+    photo: "houaida.jpg"
+    title: "Research Intern"
+    linkedin: "www.linkedin.com/in/houaida-mangour"
+    github: "https://github.com/houaida-mangour"
+
+  - name: "Nadia Jazi"
+    photo: "nadia.jpeg"
+    title: "Research Intern"
+    linkedin: "https://www.linkedin.com/in/nadia-jazi-48914a250/"
+    github: "https://github.com/nadiajazi"
+
