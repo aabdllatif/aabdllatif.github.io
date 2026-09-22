@@ -16,14 +16,14 @@ phd:
     linkedin: "https://ca.linkedin.com/in/coreyyangsmith"
     github: "https://github.com/coreyyangsmith"
     twitter: "https://x.com/coreyyangsmith"
-
-masters:
+  
   - name: "Tomi Owolabi"
     photo: "tomi.png"
-    title: "Masters Student"
+    title: "PhD Student"
     linkedin: "https://www.linkedin.com/in/saviour-owolabi"
     github: "https://github.com/seyviour"
 
+masters:
   - name: "John Pangas"
     photo: "john_pangas.jpg"
     title: "Masters Student"
@@ -41,6 +41,12 @@ masters:
     linkedin: "https://www.linkedin.com/in/kirabo-atuhurira-920536211"
     github: "https://github.com/kakopo"
     photo: "atuhurira_kirabo_cropped.jpg"
+  
+  - name: "Adam Alassil"
+    title: "Masters Student"
+    linkedin: "https://www.linkedin.com/in/adamalassil"
+    github: "https://github.com/aalassil"
+    photo: "adam_alassil_cropped.jpg"
 
 undergrads:
   - name: "Rinad Hamid"
